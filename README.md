@@ -1,12 +1,56 @@
-# React + Vite
+# 🎬 Netflux
+*“Your gateway to movies, fast and simple.”*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Netflux is a **React + Vite** powered movie discovery website that allows users to browse, search, and explore trending movies.  
+It integrates with [The Movie Database (TMDB)](https://www.themoviedb.org/) API to fetch movie data, while leveraging [Appwrite](https://cloud.appwrite.io/) for backend services and data manipulation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🔎 **Search Movies** – Find movies by title using TMDB API.
+- 🔥 **Trending Movies** – View the most popular movies updated daily.
+- 🎥 **Movie Details** – Explore additional movie information.
+- ☁️ **Appwrite Integration** – Backend services for authentication, data storage, and API manipulation.
+- ⚡ **Fast Development** – Built with React + Vite for speed and simplicity.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React + Vite, JavaScript (ES6+), CSS/Tailwind (if used)
+- **API:** [The Movie Database (TMDB)](https://www.themoviedb.org/)
+- **Backend / Cloud:** [Appwrite](https://cloud.appwrite.io/)
+- **Package Manager:** npm
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (>= 20 recommended)
+- npm 
+- TMDB API Key → Get it from [here](https://www.themoviedb.org/settings/api)
+- Appwrite Cloud project → [Sign up here](https://cloud.appwrite.io/)
+
+### Installation
+
+1. Clone the repo & install:
+   ```bash
+   git clone https://github.com/your-username/netflux.git
+   cd netflux
+   npm install
+   
+2. Create a .env.local file in the root with:
+   ```bash
+   VITE_TMDB_API_KEY=your_tmdb_api_key
+   VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+   VITE_APPWRITE_PROJECT=your_appwrite_project_id
+   
+3. Run the application:
+   ```bash
+   npm run dev
+   
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Netflux is developed by ✅ [arpmail] ✅.
